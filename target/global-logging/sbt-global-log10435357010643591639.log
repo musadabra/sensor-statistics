@@ -1,0 +1,122 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.2 (Oracle Corporation Java 17.0.3)
+[debug]       Load.loadUnit: plugins took 269.132ms
+[debug]       Load.loadUnit: defsScala took 1.8391ms
+[debug] [Loading] Scanning directory C:\Users\dell\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\dell\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 50.8475 ms
+[debug]           Load.resolveProject(global-plugins) took 73.1855ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\dell\.sbt\1.0\plugins, plugins: List(<none>))) took 178.1268ms
+[debug] [Loading] Done in C:\Users\dell\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 244.5341ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.6477ms
+[debug]     Load.loadUnit(file:/C:/Users/dell/.sbt/1.0/plugins/, ...) took 542.3216ms
+[debug]   Load.apply: load took 867.4164ms
+[debug]   Load.apply: resolveProjects took 9.0731ms
+[debug]   Load.apply: finalTransforms took 73.2648ms
+[debug]   Load.apply: config.delegates took 10.6782ms
+[debug]   Load.apply: Def.make(settings)... took 614.5716ms
+[debug]   Load.apply: structureIndex took 176.0183ms
+[debug]   Load.apply: mkStreams took 6.1239ms
+[info] loading global plugins from C:\Users\dell\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 3515.7785ms
+[debug]           Load.loadUnit: plugins took 25.8923ms
+[debug]           Load.loadUnit: defsScala took 0.0054ms
+[debug] [Loading] Scanning directory C:\Users\dell\Documents\Scala\sensor-statistics\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\dell\Documents\Scala\sensor-statistics\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.6469 ms
+[debug]               Load.resolveProject(sensor-statistics-build) took 1.4038ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id sensor-statistics-build, base: C:\Users\dell\Documents\Scala\sensor-statistics\project, plugins: List(<none>))) took 6.1637ms
+[debug] [Loading] Done in C:\Users\dell\Documents\Scala\sensor-statistics\project, returning: (sensor-statistics-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 8.9809ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.014ms
+[debug]         Load.loadUnit(file:/C:/Users/dell/Documents/Scala/sensor-statistics/project/, ...) took 36.2398ms
+[debug]       Load.apply: load took 38.2899ms
+[debug]       Load.apply: resolveProjects took 0.153ms
+[debug]       Load.apply: finalTransforms took 11.9303ms
+[debug]       Load.apply: config.delegates took 0.5086ms
+[debug]       Load.apply: Def.make(settings)... took 97.748ms
+[debug]       Load.apply: structureIndex took 47.565ms
+[debug]       Load.apply: mkStreams took 0.0024ms
+[info] loading project definition from C:\Users\dell\Documents\Scala\sensor-statistics\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 508.6969ms
+[debug]     Load.loadUnit: defsScala took 0.0036ms
+[debug] [Loading] Scanning directory C:\Users\dell\Documents\Scala\sensor-statistics
+[debug]       Load.loadUnit: mkEval took 6.2224ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.4715 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 3.5657ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\dell\Documents\Scala\sensor-statistics, plugins: List(<none>))) took 7.5551ms
+[debug] [Loading] Done in C:\Users\dell\Documents\Scala\sensor-statistics, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 275.0141ms
+[debug]     Load.loadUnit: cleanEvalClasses took 27.9033ms
+[debug]   Load.loadUnit(file:/C:/Users/dell/Documents/Scala/sensor-statistics/, ...) took 812.7783ms
+[debug] Load.apply: load took 815.3027ms
+[debug] Load.apply: resolveProjects took 0.3632ms
+[debug] Load.apply: finalTransforms took 15.6296ms
+[debug] Load.apply: config.delegates took 0.7249ms
+[debug] Load.apply: Def.make(settings)... took 96.3122ms
+[debug] Load.apply: structureIndex took 50.2351ms
+[debug] Load.apply: mkStreams took 0.003ms
+[info] set current project to sensor-statistics (in build file:/C:/Users/dell/Documents/Scala/sensor-statistics/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-91cf1a7839a040478570
+[debug] Writing bsp connection file
+[info] started sbt server

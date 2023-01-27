@@ -1,0 +1,15 @@
+[debug] Running TaskDef(SensorStatisticsTest, org.scalatest.tools.Framework$$anon$1@5d8a1fd8, false, [SuiteSelector])
+[info] SensorStatisticsTest:
+[info] getCSVFiles
+[info] - should return an array of CSV files in the given directory
+[info] - should return null if the given path is not a valid directory
+[info] - should return null if there are no CSV files in the given directory
+[info] doStatistics
+[info] - should return correct statistics for sensor data
+[info] Run completed in 1 second, 412 milliseconds.
+[info] Total number of tests run: 4
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[debug] Passed tests:
+[debug] 	SensorStatisticsTest
